@@ -585,9 +585,29 @@ mark.hl {
   font-size: 13px;
   font-weight: 500;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
-.status-word.ok   { color: var(--green); }
-.status-word.warn { color: var(--red); }
+.status-word.ok       { color: var(--green); }
+.status-word.warn     { color: var(--red); }
+.status-word.updating { color: var(--yellow); }
+
+/* Banner updating variant */
+.status-banner.updating          { }
+.status-banner-dot.updating      { background: var(--yellow); }
+
+/* Spinner */
+.status-spinner {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
 
 .status-updated {
   font-size: 11px;

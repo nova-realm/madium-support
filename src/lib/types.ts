@@ -15,7 +15,7 @@ export interface QR {
 }
 
 export interface MadiumStatus {
-  status: 'working' | 'downgrade';
+  status: 'working' | 'downgrade' | 'updating';
   version?: string;
   workingMsg?: string;
 }
