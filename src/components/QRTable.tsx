@@ -85,7 +85,7 @@ export default function QRTable({ qrs, config }: Props) {
         return next;
       }), 1600);
     } else {
-      pushToast("Couldn't copy — browser blocked clipboard", false);
+      pushToast("Couldn't copy. Browser blocked clipboard access.", false);
     }
   }
 

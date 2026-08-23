@@ -40,7 +40,7 @@ export default function StatusTable({ data }: Props) {
     ? (m.workingMsg || 'All systems operational.')
     : madiumUpdating
     ? 'An update is being rolled out. Brief downtime may occur.'
-    : 'Outdated — downgrade required.';
+    : 'Outdated, downgrade required.';
 
   // ── Support row ─────────────────────────────────────────────────────
   const supportOk = s.status !== 'unavailable';
