@@ -1,10 +1,10 @@
 {
   "madium": {
-    "status": "updating",
-    "version": "2.0.9",
+    "status": "working",
+    "version": "2.1.0",
     "workingMsg": "Will be down for a bit as we set things up for our next update."
   },
   "support": {
-    "status": "unavailable"
+    "status": "working"
   }
 }
