@@ -21,7 +21,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: { default: 'Madium Support Desk', template: '%s — Madium Support' },
+  title: { default: 'Madium Support Desk', template: '%s, Madium Support' },
   description: 'Quick replies and resources for the Madium support team.',
   icons: { icon: '/assets/logo-support.png', shortcut: '/assets/logo-support.png' },
 };
