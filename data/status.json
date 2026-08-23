@@ -2,7 +2,7 @@
   "madium": {
     "status": "working",
     "version": "2.1.0",
-    "workingMsg": "Will be down for a bit as we set things up for our next update."
+    "workingMsg": "Updated make sure to rerun the installer."
   },
   "support": {
     "status": "working"
