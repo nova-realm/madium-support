@@ -2,13 +2,14 @@ import type { Metadata } from 'next';
 import Topbar from '@/components/Topbar';
 import HomeCards from '@/components/HomeCards';
 import config from '@data/config.json';
-import qrsData from '@data/qrs.json';
+import { getQRs } from '@/lib/qrs-storage';
 
 export const metadata: Metadata = { title: 'Home' };
+export const dynamic = 'force-dynamic';
 
-export default function HomePage() {
-  const qrCount = (qrsData as Array<{ enabled?: boolean }>)
-    .filter(q => q.enabled !== false).length;
+export default async function HomePage() {
+  const allQRs = await getQRs();
+  const qrCount = allQRs.filter((q) => q.enabled !== false).length;
 
   return (
     <>

@@ -84,28 +84,10 @@
     "enabled": true
   },
   {
-    "id": "extract",
-    "title": "Extract madium-installer.exe",
-    "text": "",
-    "enabled": false
-  },
-  {
     "id": "firewall",
     "title": "Exclusions for inbound/outbound requests",
     "text": "# How to put exclusions for inbound and outbound requests in your firewall\n## Video attached with it at the end, read both texts and watch the video to understand how to do it.\n## Opening firewall\n- Search Firewall on the windows search bar.\n- Open \"Windows Defender Firewall with Advanced Security\"\n## Inbound requests\nPress **Inbound Requests** on the left sidebar\nThen press **New Rule** on the right sidebar\n### The next process will repeat 3 times for each path:\n1. Select program then press next;\n2. Put the path of the program then press next;\n3. Press allow the connection and press next;\n4. Make sure all options are checked/tick-marked: Domain, Private and Public | After that press next\n5. Add a name according the .exe file that you selected from that particular path.\n### All 3 paths for **Inbound Requests**:\n- C:\\Users\\Your Username\\AppData\\Roaming\\Madium\\Bin\\Loader.exe\n- C:\\Users\\Your Username\\AppData\\Roaming\\Madium\\Bin\\Madium.exe\n- Location of where you put your madium-launcher.exe, find it through the browse section.\n## Outbound requests\nPress **Outbound Requests** on the left sidebar\nThen press **New Rule** on the right sidebar\n### The next process will repeat 3 times for each path:\n1. Select **Program** then press next;\n2. Put the path of the program then press next;\n3. Press **Allow the connection** and press next;\n4. Make sure all options are checked/tick-marked: Domain, Private and Public | After that press next\n5. Add a name according the .exe file that you selected from that particular path.\n### All 3 paths for Outbound Requests:\n- C:\\Users\\Your Username\\AppData\\Roaming\\Madium\\Bin\\Loader.exe\n- C:\\Users\\Your Username\\AppData\\Roaming\\Madium\\Bin\\Madium.exe\n- Location of where you put your madium-launcher.exe, find it through the browse section.\nVideo tutorial on how to do it: https://cdn.discordapp.com/attachments/1486058139508932608/1495916476425568416/How_to_put_firewall_exclusions.mp4?ex=69e7fc48&is=69e6aac8&hm=8e987970a7",
     "enabled": true
-  },
-  {
-    "id": "fishstrap",
-    "title": "Download fishstrap",
-    "text": "",
-    "enabled": false
-  },
-  {
-    "id": "installer",
-    "title": "Delete Madium folder steps",
-    "text": "",
-    "enabled": false
   },
   {
     "id": "mismatch",
@@ -120,36 +102,6 @@
     "enabled": true
   },
   {
-    "id": "onedrive",
-    "title": "sc query OneDrive command prompt",
-    "text": "",
-    "enabled": false
-  },
-  {
-    "id": "qf",
-    "title": "Quick fixes links",
-    "text": "",
-    "enabled": false
-  },
-  {
-    "id": "rak",
-    "title": "Click insert (ins) key in-game",
-    "text": "",
-    "enabled": false
-  },
-  {
-    "id": "rep",
-    "title": "Turn off Reputation-Based Protection",
-    "text": "",
-    "enabled": false
-  },
-  {
-    "id": "sirstrap",
-    "title": "Install Sirstrap to stop forced roblox updates",
-    "text": "",
-    "enabled": false
-  },
-  {
     "id": "unfixable",
     "title": "Final recommendation, sorry for the trouble",
     "text": "### Final Recommendation\nWe're truly sorry for the trouble you've been facing. It looks like we've already shared all available solutions for your current issue.\nAs an alternative, you can check out some trusted free options at:\n> https://whatexpsare.online/\nYou're always welcome to come back and try Madium again after a future update.",
@@ -160,24 +112,6 @@
     "title": "Universal fix for Madium",
     "text": "# Universal Fix For Madium Related Issues.\n1. Firstly, Make sure all roblox processes are closed.\n2. Download the attached file and run it, refer to [video](https://cdn.discordapp.com/attachments/1486055444223885375/1523648689392975913/how_to_fix_loader.mp4) for ease of understanding. (be sure to save your scripts/tabs as the https://cdn.discordapp.com/attachments/1486055444223885375/1525183311784312953/DeleteMadium.bat will delete them)\n3. Make sure all antiviruses are off\n4. Run the **Madium Bootstrapper** as Admin",
     "enabled": true
-  },
-  {
-    "id": "uninstall",
-    "title": "Uninstall madium walkthrough",
-    "text": "",
-    "enabled": false
-  },
-  {
-    "id": "updfail",
-    "title": "Run Command Prompt as Administrator steps",
-    "text": "",
-    "enabled": false
-  },
-  {
-    "id": "verify",
-    "title": "Verification channel link",
-    "text": "",
-    "enabled": false
   },
   {
     "id": "vpn",
